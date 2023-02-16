@@ -1,0 +1,424 @@
+{
+  "seller": [
+    {
+      "name": "jobi",
+      "email": "jobi@gmail.com",
+      "password": "jobi1234",
+      "id": 1
+    },
+    {
+      "name": "joy",
+      "email": "joy@gm.com",
+      "password": "joy1234",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Infinix Note 12 pro",
+      "price": "15000",
+      "color": "Blue",
+      "category": "mobile",
+      "description": "This is good infinix mobile for budget",
+      "image": "https://cdn1.smartprix.com/rx-iITLa82JZ-w420-h420/infinix-smart-6-hd.jpg",
+      "sellerId": 1,
+      "id": 1
+    },
+    {
+      "name": "Samsung m52",
+      "price": "12000",
+      "color": "red",
+      "category": "mobile",
+      "description": "This is budget phone of samsung",
+      "image": "https://vlebazaar.in/image/cache/wp/gj/Samsung-Galaxy-M52-5G-ICY-Blue-8GB-RAM-128GB-Storage-Latest-Snapdragon-7/Samsung-Galaxy-M52-5G-ICY-Blue-8GB-RAM-128GB-Storage-Latest-Snapdragon-778G-5G-s-550x550h.webp",
+      "sellerId": 1,
+      "id": 2
+    },
+    {
+      "name": "iphone 12 pro max",
+      "price": "100000",
+      "color": "red",
+      "category": "mobile",
+      "description": "This is good mobile it looks clasics",
+      "image": "https://images.unsplash.com/photo-1607936854279-55e8a4c64888?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aXBob25lJTIwMTJ8ZW58MHx8MHx8&w=1000&q=80",
+      "sellerId": 1,
+      "id": 3
+    },
+    {
+      "name": "Samsung Smart Tv",
+      "price": "50000",
+      "color": "red",
+      "category": "Tv",
+      "description": "This is one of the best product available",
+      "image": "https://media.viveks.com/media/catalog/product/cache/88ca3c9c4ebc2244cd2bf601271fd1f0/1/0/101444_1.jpg",
+      "sellerId": 1,
+      "id": 4
+    },
+    {
+      "name": "amBoora 3X3X3 SPEED CUBE",
+      "price": "138",
+      "color": "Multi",
+      "category": "toy",
+      "description": "The color of some product parts may vary from what is shown in the image",
+      "image": "https://rukminim1.flixcart.com/image/416/416/kikluvk0-0/puzzle/y/k/x/1-3x3x3-speed-cube-high-staybility-sticker-less-smooth-swing-for-original-imafybxtmp9c2zth.jpeg?q=70",
+      "sellerId": 1,
+      "id": 5
+    },
+    {
+      "name": "Helicopter Toy",
+      "price": "500",
+      "color": "blue",
+      "category": "toy",
+      "description": "Remote controller, charging cable,Remote Control Helicopters)\n",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/remote-control-toy/d/j/h/exceed-helicopter-with-remote-control-charging-helicopter-toys-original-imaggvq7vqxgvh9k.jpeg?q=70",
+      "sellerId": 1,
+      "id": 6
+    },
+    {
+      "name": "Atomberg Fan",
+      "price": "1000",
+      "color": "black",
+      "category": "home appliances",
+      "description": "\nStylishly crafted, Atomberg Renesa+ is the perfect complement to your home with its sleek, modern design. It is made with BLDC motor technology and is 5-star rated, using up to 65% less electricity",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/fan/e/i/z/-original-imaggbzkqeczuvjt.jpeg?q=70",
+      "sellerId": 1,
+      "id": 7
+    },
+    {
+      "name": "LG AI Convertible 6-in-1 Cooling ",
+      "price": "37990",
+      "color": "white",
+      "category": "home appliances",
+      "description": "You can keep your indoor environment cool and comfortable at all times with the LG RS-Q19ENXE 1.5-ton Split Air Conditioner.",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/4/k/b/-original-imagmpthcxx6frgy.jpeg?q=70",
+      "sellerId": 1,
+      "id": 8
+    },
+    {
+      "name": "Portronics Lightning Cable 3 A 1 m Konnect B+",
+      "price": "200",
+      "color": "white",
+      "category": "mobile accessories",
+      "description": "\nBrand\nPortronics\nType\nLightning Cable\nCable Type\n480 Mbps Speed",
+      "image": "https://rukminim1.flixcart.com/image/416/416/kv5kfww0/data-cable/lightning-cable/n/z/1/por-1397-portronics-original-imag843ecpmgaqhd.jpeg?q=70",
+      "sellerId": 1,
+      "id": 9
+    },
+    {
+      "name": "CareFone Back Cover for SAMSUNG Galaxy F13",
+      "price": "200",
+      "color": "black",
+      "category": "mobile accessories",
+      "description": "CareFone Liquid Case designed with Anti-Slip Grip which Gives Perfect Grip for your device",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/cases-covers/back-cover/y/v/o/samf13-liquid-blue-1-carefone-original-imaggd259eygbd3g.jpeg?q=70",
+      "sellerId": 1,
+      "id": 10
+    },
+    {
+      "name": "boAt Rockerz 255 Pro+",
+      "price": "1000",
+      "color": "black",
+      "category": "mobile accessories",
+      "description": "boAt Rockerz 255 Pro+ is a power-packed in-ear wireless neckband headphone that has been ergonomically designed to meet the needs of music lovers",
+      "image": "https://rukminim1.flixcart.com/image/416/416/l31x2fk0/headphone/0/z/e/-original-image9egyqndhqhb.jpeg?q=70",
+      "sellerId": 1,
+      "id": 11
+    },
+    {
+      "name": "Neck Light Blue T-Shirt",
+      "price": "300",
+      "color": "Green",
+      "category": "fashions",
+      "description": "this is neck printed t-shirt",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/7/q/w/s-all-rbc-white-one-nb-nicky-boy-original-imagjz5bgpmhcaea.jpeg?q=70",
+      "sellerId": 1,
+      "id": 12
+    },
+    {
+      "name": "Epson L6490 Multi-function WiFi Color Inkjet Printer ",
+      "price": "30000",
+      "color": "white",
+      "category": "electronics",
+      "description": "\nPrinting Method\nInkjet\nType\nMulti-function\nModel Name\nL6490\nPrinting Output\nColor\nBrand\nEpson\nRefill Type\nInk Bottle\nIdeal Usage\nBusiness",
+      "image": "https://rukminim1.flixcart.com/image/416/416/l111lzk0/printer/u/o/5/l6490-epson-original-imagczt9g7my2xyn.jpeg?q=70",
+      "sellerId": 1,
+      "id": 13
+    },
+    {
+      "name": "PHILIPS MMS2625B/94 31 W Bluetooth Home Theatre",
+      "price": "4000",
+      "color": "black",
+      "category": "electronics",
+      "description": "\nThe Philips MMS2625B/94 Bluetooth Home Theatre system is a sleek and powerful home entertainment device that delivers up to 31 W of output power",
+      "image": "https://rukminim1.flixcart.com/image/416/416/knexksw0/speaker/home-theatre/m/j/m/mms2625b-94-philips-original-imag23mb33k37h7x.jpeg?q=70",
+      "sellerId": 1,
+      "id": 14
+    },
+    {
+      "name": "ZEBRONICS 18.5 inch HD LED",
+      "price": "20000",
+      "color": "black",
+      "category": "electronics",
+      "description": "ZEB-V19HD LED is an LED monitor that has a slim design with a glossy panel",
+      "image": "https://rukminim1.flixcart.com/image/416/416/ktuewsw0/monitor/i/l/x/zeb-v19hd-led-hd-18-5-zeb-v19hd-led-zebronics-original-imag73hbg3zhz3zx.jpeg?q=70",
+      "sellerId": 1,
+      "id": 15
+    },
+    {
+      "name": "Men Slim Fit Solid Spread Collar Formal Shirt",
+      "price": "400",
+      "color": "pink",
+      "category": "fashions",
+      "description": "Looks like stitched shirt, cloth was very soft and comfortable, must buy",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/5/8/p/xxl-r-stbrg-stoneberg-original-imaggm4axefejzsc.jpeg?q=70",
+      "sellerId": 1,
+      "id": 16
+    },
+    {
+      "name": "Cello Aspro Mavro Ball Pen  (Pack of 50, Blue, Black, Red)",
+      "price": "300",
+      "color": "black",
+      "category": "offer",
+      "description": "\nFor those with a penchant for smooth writing, the Cello Aspro Mavro Ball Pen is the perfect choice. These Cello Pens come with 0.7mm tip in a feather-light body allowing the user to experience effortless fine writing.",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/pen/l/f/v/-original-imagkhxvnetmyyba.jpeg?q=70",
+      "sellerId": 1,
+      "id": 17
+    },
+    {
+      "name": "Ayaan Toys Ayaan toys Sports Car",
+      "price": "4000",
+      "color": "red",
+      "category": "offer",
+      "description": "OH BABY 518 BATTERY CAR, FULL OF LED LIGHT, PRODUCT SIZE-98X56X40, Style:-Ride On Toy, 2.4G bluetooth remote control,smooth start,four wheels suspension,with swing function,LED light,music player with USB socket, in build early education, storytelling",
+      "image": "https://rukminim1.flixcart.com/image/416/416/k5vcya80/electric-ride-on/f/3/2/eron518red-ayaan-toys-original-imafzdbvyhq2fpqc.jpeg?q=70",
+      "sellerId": 2,
+      "id": 19
+    },
+    {
+      "name": "7CR key holder F shelf",
+      "price": "200",
+      "color": "brown",
+      "category": "offer",
+      "description": "It is real trouble when you lose your keys. You have to make little space in your house where you can put your keys. ",
+      "image": "https://rukminim1.flixcart.com/image/416/416/jv2p6kw0/rack-shelf/5/b/z/full-wall-shelf-wb-7cr-original-imaff2xandhdb8yp.jpeg?q=70",
+      "sellerId": 1,
+      "id": 20
+    },
+    {
+      "name": " Toys Musical Army Style Toy Gun for Kids",
+      "price": "500",
+      "color": "black",
+      "category": "toy",
+      "description": "\nA Wonderful Army Gun Which Is 2 Feet Long. Its Fun For Boys With Flashing Lights And Sound Effects. The Real Saviours Would Love To Play With This",
+      "image": "https://rukminim1.flixcart.com/image/416/416/k7usyvk0/toy-weapon/4/n/j/musical-army-style-toy-gun-for-kids-guns-darts-multicolor-sagar-original-imafqy3ffwhtrkkk.jpeg?q=70",
+      "sellerId": 1,
+      "id": 21
+    },
+    {
+      "name": "G 7 kg Fully Automatic Front Load with In-built Heater Black Washing Machine",
+      "price": "20000",
+      "color": "grey",
+      "category": "home appliances",
+      "description": "\nWash your clothes easily with the LG 7 kg Fully Automatic Front-loading Washing Machine. Featuring the Six Motion Direct Drive technology, this washing machine can clean your clothes in a gentle, caring manner",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/washing-machine-new/m/q/l/7-60-fhm1207sdm-5-0-05-44-60-lg-85-original-imaghbstmpqxntaz.jpeg?q=70",
+      "sellerId": 1,
+      "id": 22
+    },
+    {
+      "name": "Shopeleven Push Up Bar with Foam Grip Handle for Chest Workout home",
+      "price": "200",
+      "color": "blue",
+      "category": "sports",
+      "description": "\nPush-up bar is an ergonomic and sturdily designed push-up bar that will prevent avoidable stress on your arms and upper body and aid your physical training",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/bar/d/k/q/push-up-bar-with-foam-grip-handle-for-chest-workout-home-gym-original-imaggujcf3d6euvm.jpeg?q=70",
+      "sellerId": 2,
+      "id": 23
+    },
+    {
+      "name": "Poco M4 5G",
+      "price": "12000",
+      "color": "black",
+      "category": "mobile",
+      "description": "Break all barriers and enjoy an unmatched smartphone experience with the POCO M4 5G that is designed to send chills across your body from the moment you start using it",
+      "image": "https://rukminim1.flixcart.com/image/416/416/l2jcccw0/mobile/i/p/o/-original-imagdu8j9vxscfdh.jpeg?q=70",
+      "sellerId": 2,
+      "id": 24
+    }
+  ],
+  "users": [
+    {
+      "name": "Jobi S S",
+      "email": "jobi@gmail.com",
+      "password": "12345678",
+      "id": 1
+    },
+    {
+      "name": "Nivin g",
+      "email": "nivin@gmail.com",
+      "password": "12345678",
+      "id": 2
+    },
+    {
+      "name": "Shijo",
+      "email": "shijo@gmail.com",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "name": "Akshay",
+      "email": "akshay@gmail.com",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "name": "Ajin",
+      "email": "ajin@gmail.com",
+      "password": "12345678",
+      "id": 5
+    },
+    {
+      "name": "jobiss",
+      "email": "jobissjo@g.com",
+      "password": "123456789",
+      "id": 6
+    },
+    {
+      "name": "wearfrwgae",
+      "email": "jobi@gdsfmail.com",
+      "password": "12345678",
+      "id": 7
+    }
+  ],
+  "carts": [
+    {
+      "name": "Infinix Note 12 pro",
+      "price": "15000",
+      "color": "Blue",
+      "category": "mobile",
+      "description": "This is good infinix mobile for budget",
+      "image": "https://cdn1.smartprix.com/rx-iITLa82JZ-w420-h420/infinix-smart-6-hd.jpg",
+      "sellerId": 1,
+      "id": 1,
+      "productId": 1,
+      "userId": 1,
+      "quantity": 1
+    },
+    {
+      "name": "Samsung m52",
+      "price": "12000",
+      "color": "red",
+      "category": "mobile",
+      "description": "This is budget phone of samsung",
+      "image": "https://vlebazaar.in/image/cache/wp/gj/Samsung-Galaxy-M52-5G-ICY-Blue-8GB-RAM-128GB-Storage-Latest-Snapdragon-7/Samsung-Galaxy-M52-5G-ICY-Blue-8GB-RAM-128GB-Storage-Latest-Snapdragon-778G-5G-s-550x550h.webp",
+      "sellerId": 1,
+      "id": 2,
+      "productId": 2,
+      "userId": 1,
+      "quantity": 1
+    },
+    {
+      "name": "iphone 12 pro max",
+      "price": "100000",
+      "color": "red",
+      "category": "mobile",
+      "description": "This is good mobile it looks clasics",
+      "image": "https://images.unsplash.com/photo-1607936854279-55e8a4c64888?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aXBob25lJTIwMTJ8ZW58MHx8MHx8&w=1000&q=80",
+      "sellerId": 1,
+      "id": 3,
+      "productId": 3,
+      "userId": 1,
+      "quantity": 1
+    },
+    {
+      "name": "Samsung Smart Tv",
+      "price": "50000",
+      "color": "red",
+      "category": "Tv",
+      "description": "This is one of the best product available",
+      "image": "https://media.viveks.com/media/catalog/product/cache/88ca3c9c4ebc2244cd2bf601271fd1f0/1/0/101444_1.jpg",
+      "sellerId": 1,
+      "id": 4,
+      "productId": 4,
+      "userId": 1,
+      "quantity": 1
+    },
+    {
+      "name": "amBoora 3X3X3 SPEED CUBE",
+      "price": "138",
+      "color": "Multi",
+      "category": "toy",
+      "description": "The color of some product parts may vary from what is shown in the image",
+      "image": "https://rukminim1.flixcart.com/image/416/416/kikluvk0-0/puzzle/y/k/x/1-3x3x3-speed-cube-high-staybility-sticker-less-smooth-swing-for-original-imafybxtmp9c2zth.jpeg?q=70",
+      "sellerId": 1,
+      "id": 5,
+      "productId": 5,
+      "userId": 1,
+      "quantity": 1
+    },
+    {
+      "name": "Helicopter Toy",
+      "price": "500",
+      "color": "blue",
+      "category": "toy",
+      "description": "Remote controller, charging cable,Remote Control Helicopters)\n",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/remote-control-toy/d/j/h/exceed-helicopter-with-remote-control-charging-helicopter-toys-original-imaggvq7vqxgvh9k.jpeg?q=70",
+      "sellerId": 1,
+      "id": 6,
+      "productId": 6,
+      "userId": 1,
+      "quantity": 1
+    },
+    {
+      "name": "Atomberg Fan",
+      "price": "1000",
+      "color": "black",
+      "category": "home appliances",
+      "description": "\nStylishly crafted, Atomberg Renesa+ is the perfect complement to your home with its sleek, modern design. It is made with BLDC motor technology and is 5-star rated, using up to 65% less electricity",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/fan/e/i/z/-original-imaggbzkqeczuvjt.jpeg?q=70",
+      "sellerId": 1,
+      "id": 7,
+      "productId": 7,
+      "userId": 1,
+      "quantity": 1
+    },
+    {
+      "name": "LG AI Convertible 6-in-1 Cooling ",
+      "price": "37990",
+      "color": "white",
+      "category": "home appliances",
+      "description": "You can keep your indoor environment cool and comfortable at all times with the LG RS-Q19ENXE 1.5-ton Split Air Conditioner.",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/air-conditioner-new/4/k/b/-original-imagmpthcxx6frgy.jpeg?q=70",
+      "sellerId": 1,
+      "id": 8,
+      "productId": 8,
+      "userId": 1,
+      "quantity": 1
+    }
+  ],
+  "orders": [
+    {
+      "email": "hubhub@bub.com",
+      "contact": "",
+      "address": "",
+      "userId": 1,
+      "totalPrice": 158925,
+      "id": 1
+    },
+    {
+      "email": "hubhub@bub.com",
+      "contact": "",
+      "address": "",
+      "userId": 1,
+      "totalPrice": 158925,
+      "id": 2
+    },
+    {
+      "email": "hubhub@bub.com",
+      "contact": "",
+      "address": "",
+      "userId": 1,
+      "totalPrice": 158925,
+      "id": 3
+    }
+  ]
+}

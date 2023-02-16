@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import 'ngx-toastr/toastr';
+body{
+    font-family: sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: whitesmoke !important;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+    cursor: pointer !important;
+    color: blueviolet !important;
+}
+li{
+    list-style-type: none;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black !important;
+    border-radius: 5px !important;
+}
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+@import "~bootstrap/dist/css/bootstrap.css";

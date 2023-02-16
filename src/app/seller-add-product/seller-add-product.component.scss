@@ -1,0 +1,25 @@
+input, textarea{
+    width: 300px;
+    padding: 5px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus{
+    background-color: rgb(224, 224, 224);
+    border: 2px solid blueviolet;
+}
+
+.input-field{
+    margin: 10px 0;
+}
+.add-product-container{
+    margin: 10px 0;
+}
+form{
+    width: 600px;
+    // margin: auto;
+    background-color:#d9d9ff;
+    padding: 10px;
+    margin: 10px auto;
+}
