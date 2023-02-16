@@ -1,0 +1,43 @@
+<div class="my-orders" *ngIf="orderData.length">
+    <h1 class="text-center">My Orders</h1>
+    <div class="row">
+        <div class="col-sm-2">
+            <span>Orders</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Order Id</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Price</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Status</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Cancel Order</span>
+        </div>
+    </div>
+    <div class="row" *ngFor="let order of orderData">
+        <div class="col-sm-2">
+            <img class="order-img" src="https://www.cms.gov/About-CMS/Agency-Information/OMH/Images/redesign/images/CCM-Homepage/product-ordering/3col-CMS-CCM-Product-Ordering-150.png" alt="order-pic">
+        </div>
+        <div class="col-sm-2">
+            <span>{{order.id}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span>{{order.totalPrice}}</span>
+        </div>
+        <div class="col-sm-2">
+            <p>Pending</p>
+        </div>
+        <div class="col-sm-2">
+            <button (click)="cancelOrder(order.id)">Cancel</button>
+        </div>
+    </div>
+</div>
+<div class="no-orders" *ngIf="!orderData.length">
+    <h3>My Orders</h3>
+    <div>
+
+    </div>
+</div>

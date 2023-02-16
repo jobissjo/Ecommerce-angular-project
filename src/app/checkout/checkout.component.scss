@@ -1,0 +1,22 @@
+.inputs{
+    width: 300px;
+    min-height: 35px;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+input:focus,textarea:focus{
+    background-color: rgb(227, 227, 227);
+}
+.checkout-form{
+    max-width: 300px;
+    margin: auto;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    width: 100%;
+}

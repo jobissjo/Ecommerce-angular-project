@@ -1,0 +1,79 @@
+<div class="text-center sell-form-container" *ngIf="!showLogin">
+  <div >
+    <form
+      #sellerSignUp="ngForm"
+      class="sellar-form"
+      (ngSubmit)="signUp(sellerSignUp.value)"
+    >
+      <h2>Seller Sign-Up Form</h2>
+      <div>
+        <input
+          class="input-field"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Name"
+          ngModel
+        />
+      </div>
+      <div>
+        <input
+          class="input-field"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Email"
+          ngModel
+        />
+      </div>
+      <div>
+        <input
+          class="input-field"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Password"
+          ngModel
+        />
+      </div>
+      <button class="login-btn btn btn-success" type="submit">Register</button>
+      <p class="login-route">
+        Already have a account?
+        <a (click)="switchLog()" >Click to Login</a>
+      </p>
+    </form>
+  </div>
+</div>
+
+<div class="text-center login-form-container" *ngIf="showLogin">
+    <div class="login-heading">
+        <h2 class="">Seller Login</h2>
+        <p class="log-error" *ngIf="authError">{{authError}}</p>
+    </div>
+  
+  <form action="" class=" sellar-form" #loginForm="ngForm" (ngSubmit)="login(loginForm.value)">
+    <div>
+      <input
+        class="input-field"
+        type="email"
+        name="email"
+        placeholder="Enter Email"
+        ngModel
+      />
+    </div>
+    <div>
+      <input
+        class="input-field"
+        type="password"
+        name="password"
+        placeholder="Enter Password"
+        ngModel
+      />
+    </div>
+    <button class="login-btn">Login</button>
+    <p class="signup-route">
+        Not have a account? <a (click)="switchLog()">Click to Sign-Up</a>
+      </p>
+  </form>
+  
+</div>
