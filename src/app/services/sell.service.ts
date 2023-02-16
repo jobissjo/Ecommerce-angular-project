@@ -8,8 +8,8 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class SellService {
-  sellerUrl = "http://localhost:3000/seller";
-  // sellerUrl = "https://json-server-template-tawny.vercel.app/seller"
+//   sellerUrl = "http://localhost:3000/seller";
+  sellerUrl = "https://json-server-template-tawny.vercel.app/seller"
   isSellerLoggedIn = new BehaviorSubject<boolean>(false);
   isLoginError = new EventEmitter<boolean>(false);
 
