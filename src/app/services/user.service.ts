@@ -7,8 +7,8 @@ import { Login, SignUp } from '../interface/signup';
   providedIn: 'root'
 })
 export class UserService {
-  userUrl = "http://localhost:3000/users";
-  // userUrl = "https://json-server-template-tawny.vercel.app/users"
+//   userUrl = "http://localhost:3000/users";
+  userUrl = "https://json-server-template-tawny.vercel.app/users";
   invalidUserAuth = new EventEmitter<boolean>(false)
   constructor(private http:HttpClient, private router: Router) { }
   userSignUp(user:SignUp){
