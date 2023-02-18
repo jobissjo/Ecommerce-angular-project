@@ -1,0 +1,34 @@
+<div class="product-container">
+    <h1 class="text-center">All Product List</h1>
+    <p class="message_p">{{productMsg}}</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Color</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of productList">
+                <td><img src="{{item.image}}"></td>
+                <td>{{item.name | titlecase }}</td>
+                <td>{{item.price | currency:"INR"}}</td>
+                <td>{{item.color}}</td>
+                <td>{{item.category | titlecase}}</td>
+                <td>{{item.description}}</td>
+                <td>
+                    <div class="actions">
+                        <button class="btn btn-danger" (click)="delete(item.id)"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="delete"></mat-icon></button>
+                        <a class="btn btn-primary" routerLink="/seller-update-product/{{item.id}}"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="edit"></mat-icon></a>
+                    </div>
+                </td>
+                    
+            </tr>
+        </tbody>
+    </table>
+</div>
