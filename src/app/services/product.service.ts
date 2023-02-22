@@ -7,14 +7,14 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root',
 })
 export class ProductService {
-  productUrl = 'http://localhost:3000/products';
-  cartUrl = 'http://localhost:3000/carts';
-  orderUrl = 'http://localhost:3000/orders';
+//   productUrl = 'http://localhost:3000/products';
+//   cartUrl = 'http://localhost:3000/carts';
+//   orderUrl = 'http://localhost:3000/orders';
   singleproduct$ = new BehaviorSubject<Product | undefined>(undefined);
   localCartIds$ = new BehaviorSubject<number[]>([]);
-  // productUrl = "https://json-server-template-tawny.vercel.app/products";
-  // cartUrl = "https://json-server-template-tawny.vercel.app/carts";
-  // orderUrl = "https://json-server-template-tawny.vercel.app/orders";
+  productUrl = "https://json-server-template-tawny.vercel.app/products";
+  cartUrl = "https://json-server-template-tawny.vercel.app/carts";
+  orderUrl = "https://json-server-template-tawny.vercel.app/orders";
   cartData = new BehaviorSubject<Product[]>([]);
   cartData$ = new BehaviorSubject<Cart[]>([]);
   constructor(private http: HttpClient) {}
