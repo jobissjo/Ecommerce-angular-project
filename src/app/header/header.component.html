@@ -1,0 +1,169 @@
+<nav class="nav">
+  <h1><a routerLink="/">Y-SHOPPY</a></h1>
+  <div *ngIf="menuType !== 'seller'" class="nav-search">
+    <input
+      (keyup)="prodSearch($event)"
+      (blur)="hideSuggSearch()"
+      type="text"
+      name=""
+      placeholder="Search products"
+      #product
+    />
+    <button (click)="searchProduct(product.value)">Search</button>
+    <ul class="suggested-search" *ngIf="searchResult && hidden">
+      <li *ngFor="let item of searchResult">
+        <a (mousedown)="redirecPro(item.id)" href="">{{ item.name }}</a>
+      </li>
+    </ul>
+  </div>
+  <div [ngSwitch]="menuType">
+    <ul *ngSwitchCase="'default'">
+      <li><a [routerLink]="'/'">Home</a></li>
+      <li><a [routerLink]="'seller-auth'">Seller</a></li>
+      <li><a routerLink="/user-auth">Login/Signup</a></li>
+      <li>
+        <a routerLink="/cart">Cart({{ cartItemsCount }})</a>
+      </li>
+    </ul>
+    <ul *ngSwitchCase="'user'">
+      <li><a [routerLink]="'/'">Home</a></li>
+      <li><a [routerLink]="'seller-auth'">Seller</a></li>
+      <li>
+        <a [routerLink]="'user-details'">{{ userName | titlecase }}</a>
+      </li>
+      <li><a (click)="userLogOut()">Logout</a></li>
+      <li>
+        <a routerLink="/cart">Cart({{ cartItemsCount }})</a>
+      </li>
+    </ul>
+    <ul *ngSwitchCase="'seller'">
+      <li><a [routerLink]="'seller-home'">Product List</a></li>
+      <li><a [routerLink]="'seller-add-product'">Add Product</a></li>
+      <li><a (click)="logout()">Logout</a></li>
+      <li>
+        <a [routerLink]="'seller-details'">{{ sellerName | titlecase }}</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="collection" *ngIf="(menuType !== 'seller') && showCollection">
+  <div class="flex">
+    <a (click)="getCollectionProduct('offer')">
+        <div class="collection-div">
+          <li>
+            <mat-icon
+              aria-hidden="false"
+              color="primary"
+              aria-label="Example home icon"
+              fontIcon="redeem"
+            ></mat-icon>
+          </li>
+          <li>Today Deals</li>
+        </div>
+      </a>
+    <a (click)="getCollectionProduct('mobile')">
+        <div class="collection-div">
+          <li>
+            <mat-icon
+              aria-hidden="false"
+              color="primary"
+              aria-label="Example home icon"
+              fontIcon="smartphone"
+            ></mat-icon>
+          </li>
+          <li>Mobile</li>
+        </div>
+      </a>
+    <a (click)="getCollectionProduct('toy')">
+        <div class="collection-div">
+          <li>
+            <mat-icon
+              aria-hidden="false"
+              color="primary"
+              aria-label="Example home icon"
+              fontIcon="smart_toy"
+            ></mat-icon>
+          </li>
+          <li>Toys</li>
+        </div>
+      </a>
+    <a (click)="getCollectionProduct('electronics')">
+        <div class="collection-div">
+          <li>
+            <mat-icon
+              aria-hidden="false"
+              color="primary"
+              aria-label="Example home icon"
+              fontIcon="electrical_services"
+            ></mat-icon>
+          </li>
+          <li>Electronics</li>
+        </div>
+      </a>
+    <a (click)="getCollectionProduct('fashions')">
+        <div class="collection-div">
+          <li>
+            <mat-icon
+              aria-hidden="false"
+              color="primary"
+              aria-label="Example home icon"
+              fontIcon="styler"
+            ></mat-icon>
+          </li>
+          <li>Fashions</li>
+        </div>
+      </a>
+    <a (click)="getCollectionProduct('home appliances')">
+        <div class="collection-div">
+          <li>
+            <mat-icon
+              aria-hidden="false"
+              color="primary"
+              aria-label="Example home icon"
+              fontIcon="house"
+            ></mat-icon>
+          </li>
+          <li>Home Appliances</li>
+        </div>
+      </a>
+    <a (click)="getCollectionProduct('sports')">
+      <div class="collection-div">
+        <li>
+          <mat-icon
+            aria-hidden="false"
+            color="primary"
+            aria-label="Example home icon"
+            fontIcon="sports_esports"
+          ></mat-icon>
+        </li>
+        <li>Sports</li>
+      </div>
+    </a>
+    <a  (click)="getCollectionProduct('book')">
+      <div class="collection-div">
+        <li>
+          <mat-icon
+            aria-hidden="false"
+            color="primary"
+            aria-label="Example home icon"
+            fontIcon="library_books"
+          ></mat-icon>
+        </li>
+        <li>Books</li>
+      </div>
+    </a>
+    <a  (click)="getCollectionProduct('mobile accessories')">
+        <div class="collection-div">
+          <li>
+            <mat-icon
+              aria-hidden="false"
+              color="primary"
+              aria-label="Example home icon"
+              fontIcon="developer_mode"
+            ></mat-icon>
+          </li>
+          <li>Mobile Accessories</li>
+        </div>
+      </a>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+
+.input-field{
+    width: 35vw;
+    padding: 10px;
+    min-height: 30px;
+    margin: 0.8rem 0;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+button{
+    cursor: pointer;
+    width: 100px;
+}
+
+.user-auth{
+  margin-bottom: 10px;
+}
+.invalid-input{
+  color: red;
+  font-size: 16px;
+}
+.error_msg{
+  color: red;
+  margin: 10px;
+}

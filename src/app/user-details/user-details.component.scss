@@ -1,0 +1,49 @@
+$subColor: #b9e2fd;
+
+.profile-conteiner{
+    display: flex;
+    width: 600px;
+    margin: 20px auto;
+    justify-content: space-evenly;
+    border: 1px solid #ddd ;
+    min-height: 200px;
+    // padding: 10px;
+    h4{
+        color: #8a2be2;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .profile-info{
+        padding: 15px;
+        width: 300px;
+        h4{
+            
+            border-bottom: 1px solid #ddd;
+        }
+        .details{
+            padding-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    .profile-header{
+        background-color: $subColor;
+        width: 300px;
+        padding: 15px;
+        .img-container{
+            text-align: center;
+        }
+        img{
+            text-align: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+    }
+}
+.error{
+    color: red;
+}
+.success_msg{
+    color: green;
+}

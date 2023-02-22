@@ -1,0 +1,22 @@
+$subColor: #b9e2fd;
+.profile-conteiner{
+    width: 500px;
+    margin: 10px auto;
+    text-align: center;
+}
+.profile-header{
+    width: 500px;
+    background-color: $subColor;
+    padding: 10px;
+}
+.profile-info{
+    width: 500px;
+    background-color: #e9f6ff;
+    padding: 20px;
+}
+.success_msg{
+    color: green;
+}
+.round-image{
+    border-radius: 50px;
+}

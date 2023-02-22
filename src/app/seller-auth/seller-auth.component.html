@@ -1,0 +1,91 @@
+<div class="text-center sell-form-container" *ngIf="!showLogin">
+  <div>
+    <form
+      class="sellar-form"
+      (ngSubmit)="signUp(form.value)"
+      [formGroup]="sellerSignUp"
+      #form="ngForm"
+    >
+      <h2>Seller Sign-Up Form</h2>
+      <div>
+        <input
+          class="input-field"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Name"
+          formControlName="name"
+        />
+      </div>
+      <span class="error_msg" *ngIf="sellerSignUp.get('name')?.touched && sellerSignUp.get('name')?.invalid">Name field is required</span>
+      <div>
+        <input
+          class="input-field"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Email"
+          formControlName="email"
+        />
+      </div>
+      <span class="error_msg" *ngIf="sellerSignUp.get('email')?.touched && sellerSignUp.get('email')?.invalid">Email field is not correct</span>
+      <div>
+        <input
+          class="input-field"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Password"
+          formControlName="password"
+        />
+      </div>
+      <span class="error_msg" *ngIf="sellerSignUp.get('password')?.touched && sellerSignUp.get('password')?.invalid">Password should be mimimum 8 length</span>
+      <div>
+        <button class="login-btn btn btn-success" type="submit" [disabled]="sellerSignUp.invalid">
+          Register
+        </button>
+      </div>
+      <p class="login-route">
+        Already have a account?
+        <a (click)="switchLog()">Click to Login</a>
+      </p>
+    </form>
+  </div>
+</div>
+
+<div class="text-center login-form-container" *ngIf="showLogin">
+  <div class="login-heading">
+    <h2 class="">Seller Login</h2>
+    <p class="log-error" *ngIf="authError">{{ authError }}</p>
+  </div>
+
+  <form
+    action=""
+    class="sellar-form"
+    #loginForm="ngForm"
+    (ngSubmit)="login(loginForm.value)"
+  >
+    <div>
+      <input
+        class="input-field"
+        type="email"
+        name="email"
+        placeholder="Enter Email"
+        ngModel
+      />
+    </div>
+    <div>
+      <input
+        class="input-field"
+        type="password"
+        name="password"
+        placeholder="Enter Password"
+        ngModel
+      />
+    </div>
+    <button class="login-btn">Login</button>
+    <p class="signup-route">
+      Not have a account? <a (click)="switchLog()">Click to Sign-Up</a>
+    </p>
+  </form>
+</div>
